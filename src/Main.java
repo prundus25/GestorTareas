@@ -46,15 +46,6 @@ public class Main {
         }
     }
 
-    public static void agregarTarea(String tarea){
-        tareas.add(tarea);
-    }
-
-    public static void eliminarTarea(int index){
-        tareas.remove(index-1);
-        mainMenu();
-    }
-
     public static void listarTareas(){
         System.out.println("\n");
         if (tareas.isEmpty()) System.out.println("No hay tareas que listar.");
