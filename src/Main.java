@@ -47,7 +47,16 @@ public class Main {
         }
     }
 
-   
+
+
+
+
+
+
+
+
+
+    
 
     public static void eliminarTarea(int index){
         tareas.remove(index-1);
