@@ -47,16 +47,17 @@ public class Main {
         }
     }
 
+    public static void listarTareas(){
+        System.out.println("\n");
+        if (tareas.isEmpty()) System.out.println("No hay tareas que listar.");
+        else System.out.println("--Lista de tareas--");
+        for (int i = 0; i < tareas.size() && !tareas.isEmpty(); i++){
+            System.out.println((i+1) + ". " + tareas.get(i));
+        }
+        mainMenu();
+    }
 
-
-
-
-
-
-
-
-
-    
+   
 
     public static void eliminarTarea(int index){
         tareas.remove(index-1);
