@@ -1,6 +1,7 @@
 ## Desarrolladores
 
 # **Denis Prundus** – *Desarrollador A* - main
+# **Alex Stoica** – *Desarrollador C* - main
 
 ## Folder Structure
 
